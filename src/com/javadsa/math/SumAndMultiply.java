@@ -33,3 +33,4 @@ public class SumAndMultiply {
 	}
 
 }
+//output:12340
