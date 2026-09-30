@@ -11,7 +11,7 @@ package com.java.strings;
  * Time Complexity: O(n)
  * Space Complexity: O(1)
  */
-class solution {
+class Solution {
 	public static int SegmentCount(String str) {
 		if (str.equals("")) {
 			return 0;
@@ -36,7 +36,7 @@ public class NumberofSegmentsinaString {
 
 	public static void main(String[] args) {
 		String str = "Hello, my name is John";
-		int ans = solution.SegmentCount(str);
+		int ans = Solution.SegmentCount(str);
 		System.out.println(ans);
 	}
 
