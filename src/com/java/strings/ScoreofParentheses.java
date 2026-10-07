@@ -2,6 +2,14 @@ package com.java.strings;
 
 import java.util.Stack;
 
+/*
+ * Problem: Score of Parentheses
+ * Approach: Use a stack to store the score of each nested level.
+ *           "()" contributes 1, while a nested score contributes 2 * score.
+ *           Combine the calculated score with the previous level's score.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 public class ScoreofParentheses {
 
 	public static void main(String[] args) {
