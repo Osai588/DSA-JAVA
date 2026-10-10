@@ -3,6 +3,14 @@ package com.javadsa.arrays;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Problem: Find Target Indices After Sorting Array
+ * Approach: Count elements smaller than target and elements equal to target.
+ *           In the sorted array, target indices start at less and continue
+ *           for equal positions.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) for the result list; O(1) auxiliary space
+ */
 public class FindTargetIndicesAfterSortingArray {
 
 	public static void main(String[] args) {
@@ -23,7 +31,7 @@ public class FindTargetIndicesAfterSortingArray {
 		for (int i = less; i < less + equal; i++) {
 			list.add(i);
 		}
-        System.out.println(list);
+		System.out.println(list);
 	}
 
 }
