@@ -1,5 +1,13 @@
 package com.javadsa.math;
 
+/*
+ * Problem: A Number After a Double Reversal
+ * Approach: Reverse the given number twice using digit extraction and
+ *           reconstruction. Compare the final reversed number with
+ *           the original number to determine whether they are equal.
+ * Time Complexity: O(d), where d is the number of digits
+ * Space Complexity: O(1)
+ */
 class Solution23 {
 	public static boolean isSameAfterReversals(int num) {
 		int rev1 = 0;
